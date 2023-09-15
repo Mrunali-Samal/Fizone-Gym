@@ -1,0 +1,272 @@
+
+body,
+h1,
+h2,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    transition: background-color 0.2s;
+}
+
+nav ul :hover {
+    background-color: #d44027;
+}
+
+nav li {
+    margin-right: 20px;
+
+
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 0;
+    background-image: url('pic2.jpg');
+    background-size: cover;
+    color: #fff;
+  
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff5733;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.about,
+.services,
+.contact {
+    padding: 40px;
+    background-color: #fff;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.about {
+    padding: 40px;
+    background-color: #fff;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.about-text {
+    flex: 1;
+}
+
+.about-text h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.about-text p {
+    margin-bottom: 15px;
+}
+
+.about-image {
+    flex: 1;
+    text-align: center;
+}
+
+.about-image img {
+    max-width: 70%;
+    object-fit: cover;
+    border-radius: 5px;
+    size: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.programs {
+    padding: 40px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.program {
+    flex-basis: calc(33.33% - 20px);
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+    margin: 20px 0;
+    transition: transform 0.2s;
+}
+
+.program:hover {
+    transform: translateY(-5px);
+}
+
+.program img {
+    max-width: 50%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    max-height: 50%;
+}
+
+.program h3 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.program p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.btn-join {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff5733;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    transition: background-color 0.2s;
+}
+
+.btn-join:hover {
+    background-color: #d44027;
+}
+
+.contact {
+    padding: 40px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.contact-form {
+    text-align: left;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.btn-send {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff5733;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.btn-send:hover {
+    background-color: #d44027;
+}
+
+.social-icons{
+    padding-top: 1rem;
+
+  
+}
+
+.social-icons a{
+    text-decoration: none;
+    font-size: 2rem;
+    margin: 0.5rem;
+    color: #f4f4f4;
+    display: inline-block;
+    text-decoration: none;
+    transition: transform 0.2s, color 0.2s;
+}
+social-icons a:hover {
+    transform: scale(1.2);
+    color: #ff5733;
+    
+    transform: translate(-50%, -50%);
+ 
+}
+.company-name{
+    font-size: 1.6rem;
+    margin-top: 0.5rem;
+}
+
